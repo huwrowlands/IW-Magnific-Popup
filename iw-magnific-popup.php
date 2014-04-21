@@ -9,6 +9,15 @@ Version: 0.0.2
 */
 
 /*******************
+	NOTES
+*******************/
+
+//Add readme
+//Add code to wrap a class around images/galleries for no conflicts with other .gallery classes.
+//Add a admin page ?
+
+
+/*******************
 	Global Variables
 *******************/
 
