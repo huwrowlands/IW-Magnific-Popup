@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: IW Magnific Popup
-Plugin URI: ###
-Description: This enables the Magnific Popup Lightbox to all images within WordPress, single pages and galleries.
+Plugin URI: https://github.com/huwrowlands/IW-Magnific-Popup
+Description: A plugin to include the Magnific Popup lightbox for single & gallery images in WordPress.
 Author: Huw Rowlands
 Author URI: http://www.inspiredworx.com
 Version: 0.0.2
