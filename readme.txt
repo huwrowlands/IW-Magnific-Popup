@@ -3,7 +3,7 @@ Contributors: welshhuw
 Requires at least: 3.9
 Tested up to: 3.9
 Stable tag: 3.9
-License: GPL
+License: GPLv3
 License URI: https://www.gnu.org/copyleft/gpl.html
 
 A plugin to include the Magnific Popup lightbox for single & gallery images in WordPress.
