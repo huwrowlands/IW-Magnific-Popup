@@ -14,7 +14,7 @@ Version: 0.0.2
 
 //Add readme
 //Add code to wrap a class around images/galleries for no conflicts with other .gallery classes.
-//Add a admin page ?
+//Conflict occurs when the gallery image is set to ATTACHEMENT instead of MEDIA. Only occurs on Gallery images.
 
 
 /*******************
