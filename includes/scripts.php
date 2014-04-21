@@ -8,6 +8,7 @@
 function iwmp_load_styles() {
 
 	wp_enqueue_style( 'iwmp-styles', plugins_url( '/assets/magnific-popup.css', __FILE__ ) );
+	
 	// Load JS in footer
 	wp_enqueue_script( 'iwmp-scripts', plugins_url( '/assets/jquery.magnific-popup.min.js', __FILE__ ), array( 'jquery' ), '1.0', true );
 	
@@ -20,16 +21,17 @@ function iwmp_add_script() { ?>
 
 	<script>
 		jQuery(document).ready(function($) {
+			// Single Image
 			$('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').each(function(){
 				//single image popup
 				if ($(this).parents('.gallery').length == 0) {
 					$(this).magnificPopup({type:'image'});
 				}
 			});
-			//gallery popup
+			// Gallery Images
 			$('.gallery').each(function() {
 				$(this).magnificPopup({
-					delegate: 'a',
+					delegate: 'a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]',
 					type: 'image',
 					gallery: {enabled:true}
 				});
