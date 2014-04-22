@@ -10,7 +10,8 @@ A plugin to include the Magnific Popup lightbox for single & gallery images in W
 
 == Description ==
 
-This plugin includes the brilliant Magnific Popup lightbox script into your WordPress website which allows single images, and core WordPress gallery support.
+This plugin includes the brilliant responsive Magnific Popup lightbox script into your WordPress website which allows single images, and core WordPress gallery support.
+Thanks to Dmitry Semenov for the original script and hard work: http://dimsemenov.com/plugins/magnific-popup/
 
 Note: This only supports images and not the full capabilities of Magnific Popup, yet.
 
