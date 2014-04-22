@@ -1,5 +1,6 @@
 === IW Magnific Popup ===
 Contributors: welshhuw
+Tags: responsive, images, lightbox, gallery
 Requires at least: 3.9
 Tested up to: 3.9
 Stable tag: 3.9
