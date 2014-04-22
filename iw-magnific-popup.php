@@ -29,5 +29,6 @@ $iwmp_plugin_name = "IW Magnific Popup"; // Plugin name.
 *******************/
 
 include('includes/scripts.php'); // Call JS Scripts & CSS Styles.
+include('includes/wp-gallery-shortcode-override.php'); // Customise the native WordPress gallery shortcode, to add our custom class to the HTML.
 
 ?>
