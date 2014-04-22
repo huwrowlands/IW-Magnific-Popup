@@ -21,8 +21,8 @@ Upload the plugin into your plugins folder, activate and enjoy.
 
 == Changelog ==
 
-= 0.0.6 =
+= 0.0.2 =
 * Added .iwmp-gallery class to the main gallery div wrapper to avoid conflicts.
 
-= 0.0.5 =
+= 0.0.1 =
 * Initial release.
