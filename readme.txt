@@ -3,7 +3,7 @@ Contributors: welshhuw
 Tags: responsive, images, lightbox, gallery
 Requires at least: 3.9
 Tested up to: 3.9
-Stable tag: 3.9
+Stable tag: 1.1.1
 License: GPLv3
 License URI: https://www.gnu.org/copyleft/gpl.html
 
@@ -22,8 +22,11 @@ Upload the plugin into your plugins folder, activate and enjoy.
 
 == Changelog ==
 
-= 0.0.2 =
+= 1.1.1 =
+* Small Fix.
+
+= 1.1.0 =
 * Added .iwmp-gallery class to the main gallery div wrapper to avoid conflicts.
 
-= 0.0.1 =
+= 1.0.0 =
 * Initial release.
