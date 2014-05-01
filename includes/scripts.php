@@ -37,7 +37,8 @@ function iwmp_add_script() { ?>
 				      }
 				    },
 						image: {
-							markup: '<div class="mfp-figure">'+
+							markup: 
+							'<div class="mfp-figure">'+
 							'<div class="mfp-close"></div>'+
 							'<div class="mfp-img"></div>'+
 							'<div class="mfp-bottom-bar">'+
@@ -69,7 +70,8 @@ function iwmp_add_script() { ?>
 			      }
 			    },
 					image: {
-						markup: '<div class="mfp-figure">'+
+						markup: 
+						'<div class="mfp-figure">'+
 						'<div class="mfp-close"></div>'+
 						'<div class="mfp-img"></div>'+
 						'<div class="mfp-bottom-bar">'+
