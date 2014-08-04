@@ -3,7 +3,7 @@ Contributors: welshhuw
 Tags: responsive, images, lightbox, gallery
 Requires at least: 3.9
 Tested up to: 3.9
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv3
 License URI: https://www.gnu.org/copyleft/gpl.html
 
@@ -23,6 +23,9 @@ Note: This only supports images and not the full capabilities of Magnific Popup.
 Upload the plugin into your plugins folder, activate and enjoy.
 
 == Changelog ==
+
+= 1.2.2 =
+* Added Youtube, Vimeo & Google Maps functionality (include popup-youtube, popup-vimeo, popup-gmaps to the text or image link).
 
 = 1.2.1 =
 * Added Alt attribute functionality.
