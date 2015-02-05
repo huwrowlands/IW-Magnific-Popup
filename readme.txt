@@ -3,7 +3,7 @@ Contributors: welshhuw
 Tags: responsive, images, lightbox, gallery
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 1.2.1
+Stable tag: 1.2.3
 License: GPLv3
 License URI: https://www.gnu.org/copyleft/gpl.html
 
@@ -24,6 +24,9 @@ Note: This only supports images and not the full capabilities of Magnific Popup.
 Upload the plugin into your plugins folder, activate and enjoy.
 
 == Changelog ==
+
+= 1.2.3 =
+* Small fix to stop popup opening on .woocommerce-main-image (temp fix).
 
 = 1.2.2 =
 * Small fix where next & prev arrows had theme based colours on hover, now removed.

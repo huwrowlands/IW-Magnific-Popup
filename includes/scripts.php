@@ -56,7 +56,7 @@ function iwmp_add_script() { ?>
 			});		
 				
 			// Gallery Images
-			$('.iwmp-gallery').each(function() {
+			$('.iwmp-gallery, .woocomerce-main-image').each(function() {
 				$(this).magnificPopup({
 					delegate: 'a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]',
 					type: 'image',
