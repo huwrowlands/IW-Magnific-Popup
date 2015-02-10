@@ -2,8 +2,8 @@
 Contributors: welshhuw
 Tags: responsive, images, lightbox, gallery
 Requires at least: 3.9
-Tested up to: 4.0
-Stable tag: 1.2.3
+Tested up to: 4.1
+Stable tag: 1.2.5
 License: GPLv3
 License URI: https://www.gnu.org/copyleft/gpl.html
 
@@ -25,8 +25,14 @@ Upload the plugin into your plugins folder, activate and enjoy.
 
 == Changelog ==
 
+= 1.2.5 =
+* Small Fix.
+
+= 1.2.4 =
+* Added icons
+
 = 1.2.3 =
-* Small fix to stop popup opening on .woocommerce-main-image (temp fix).
+* Small fix to stop popup opening on WooCommerce product images (temp fix).
 
 = 1.2.2 =
 * Small fix where next & prev arrows had theme based colours on hover, now removed.
