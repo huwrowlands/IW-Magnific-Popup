@@ -19,13 +19,29 @@ add_action( 'wp_enqueue_scripts', 'iwmp_load_styles' );
 //Add script to the footer, to initate Magnific Popup.
 function iwmp_add_script() { ?>
 
+	<style>
+		.iwmp-single, .iwmp-gallery img {
+			cursor: pointer;
+	    cursor: -webkit-zoom-in;
+	    cursor: -moz-zoom-in;
+	    cursor: zoom-in;
+    }
+    .mfp-content:hover {
+	    cursor: -moz-zoom-out;
+	    cursor: -webkit-zoom-out;
+	    cursor: zoom-out	    
+    }
+	</style>
+	
+	
 	<script>	
 		// Ref: http://ajtroxell.com/use-magnific-popup-with-wordpress-now/
 		jQuery(document).ready(function($) {
 			// Single Image
 			$('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').each(function(){
 				//single image popup
-				if ($(this).parents('.iwmp-gallery').length == 0) {
+				if ($(this).parents('.iwmp-gallery').length == 0) { //check that it's not part of a gallery
+					$(this).addClass('iwmp-single'); //Add a class
 					$(this).magnificPopup({
 						type:'image',
 						callbacks: {
