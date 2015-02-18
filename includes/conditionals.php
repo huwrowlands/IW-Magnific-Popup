@@ -1,9 +1,8 @@
-<?php
-	$iwmp_options = get_option('iwmp_settings');
-?>
+<?php $iwmp_options = get_option('iwmp_settings'); ?>
 
-<?php
 
+<?php 
+	
 if ( $iwmp_options['iwmp_single_images'] == '1' ) {
 	
 	function iwmp_add_single_script() { ?>
@@ -60,9 +59,7 @@ if ( $iwmp_options['iwmp_single_images'] == '1' ) {
 	
 } // end if for single images
 	
-?>
 
-<?php
 
 if ( $iwmp_options['iwmp_gallery_images'] == '1' ) {
 	
@@ -112,9 +109,7 @@ if ( $iwmp_options['iwmp_gallery_images'] == '1' ) {
 	
 } // end if for galleries
 	
-?>
 
-<?php
 
 if ( $iwmp_options['iwmp_woocommerce_images'] == '1' ) {
 	
@@ -168,9 +163,6 @@ if ( $iwmp_options['iwmp_woocommerce_images'] == '1' ) {
 	
 } // end if for WooCommerce images
 	
-?>
-
-<?php
 	
 	function iwmp_add_css(){ ?>
 		<style>
@@ -189,5 +181,4 @@ if ( $iwmp_options['iwmp_woocommerce_images'] == '1' ) {
 	<?php }
 		
 	add_action( 'wp_footer', 'iwmp_add_css' );
-	
 ?>

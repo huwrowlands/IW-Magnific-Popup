@@ -10,7 +10,7 @@ exit;
 	
 	<div id="poststuff">
 	
-		<div id="post-body" class="metabox-holder columns-2">
+		<div id="post-body" class="metabox-holder">
 		
 			<!-- main content -->
 			<div id="post-body-content">
@@ -64,23 +64,6 @@ exit;
 				
 			</div> <!-- post-body-content -->
 			
-			<!-- sidebar -->
-			<div id="postbox-container-1" class="postbox-container">
-				
-				<div class="meta-box-sortables">
-					
-					<div class="postbox">
-					
-						<h3><span>Sidebar Content Header</span></h3>
-						<div class="inside">
-							Content space
-						</div> <!-- .inside -->
-						
-					</div> <!-- .postbox -->
-					
-				</div> <!-- .meta-box-sortables -->
-				
-			</div> <!-- #postbox-container-1 .postbox-container -->
 			
 		</div> <!-- #post-body .metabox-holder .columns-2 -->
 		
