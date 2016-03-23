@@ -11,7 +11,7 @@ if ( $iwmp_options['iwmp_single_images'] == '1' ) {
 		// Ref: http://ajtroxell.com/use-magnific-popup-with-wordpress-now/
 		jQuery(document).ready(function($) {
 			// Single Image
-			$('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').each(function(){
+			$('a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"]').each(function(){
 				//single image popup
 				if ($(this).parents('.iwmp-gallery').length == 0) { //check that it's not part of a gallery
 					
@@ -71,7 +71,7 @@ if ( $iwmp_options['iwmp_gallery_images'] == '1' ) {
 			// Gallery Images
 			$('.iwmp-gallery').each(function() {
 				$(this).magnificPopup({
-					delegate: 'a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]',
+					delegate: 'a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"]',
 					type: 'image',
 					gallery: {enabled:true},
 					callbacks: {
@@ -119,7 +119,7 @@ if ( $iwmp_options['iwmp_woocommerce_images'] == '1' ) {
 		// Ref: http://ajtroxell.com/use-magnific-popup-with-wordpress-now/
 		jQuery(document).ready(function($) {
 			// Single Image
-			$('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').each(function(){
+			$('a[href$=".jpg"], a[href$=".jpeg"], a[href$=".png"], a[href$=".gif"]').each(function(){
 				//single image popup
 				if ($(this).parents('.iwmp-gallery').length == 0) { //check that it's not part of a gallery
 					
